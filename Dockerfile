@@ -1,5 +1,5 @@
 # build stage
-FROM alpine:3.6 as builder
+FROM i386/alpine:3.6 as builder
 
 # devel branch
 ARG UPX_COMMIT_HASH=HEAD
